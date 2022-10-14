@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(37, 37, 37);
+    text-align: justify;
+    color: white;
+}
+
+#contairner {
+    margin: auto;
+    width: 500px;
+}
+
+.tartalom img{ 
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.resz {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+h1 {
+    text-align: center;
+}
+#links li{
+    padding-left: 20px;
+    display: inline-block;
+    list-style-type: none;
+}
+a:link{
+    color: white;
+}
+a:visited {
+    color: lawngreen;
+}
+a:hover {
+    color: lawngreen;
+}
+a:active {
+    color: white;
+}
+@media screen and (max-width  : 500px){
+    body{
+background-color:black
+}
+.resz{
+    display: grid;
+    grid-template-columns:  1fr;
+}
+.tartalom img{ 
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#links li{
+    padding-left: 20px;
+    display: grid;
+    list-style-type: none;
+}
+a:link{
+    color: white;
+}
+a:visited {
+    color: lawngreen;
+}
+a:hover {
+    color: lawngreen;
+}
+a:active {
+    color: white;
+}
+    
