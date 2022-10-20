@@ -28,6 +28,13 @@ h1 {
     padding-left: 20px;
     display: inline-block;
     list-style-type: none;
+
+}
+.tartalom li{
+    list-style-type: url("./web_grid_alap/images.png");  
+}
+.tartalom {
+    border-right: 2px solid red;
 }
 a:link{
     color: white;
@@ -40,6 +47,29 @@ a:hover {
 }
 a:active {
     color: white;
+}
+.cim h1{
+    font-size: 200%;
+    font-weight: bolder;
+    color: white ;
+    text-align: left;
+    border-bottom: 2px solid red;
+    line-break: auto;
+}
+.cim p{
+    font-size: 100%;
+    color: gray;
+    text-align: left;
+    line-break: auto;
+}
+.cim{
+    grid-template-columns: 1fr 1fr;
+    display:grid;
+}
+.cim img{
+    float: right;
+    width: 400px;
+    margin: auto;
 }
 @media screen and (max-width  : 500px){
     body{
@@ -54,6 +84,9 @@ background-color:black
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.tartalom {
+    border-top: 2px solid red;
 }
 #links li{
     padding-left: 20px;
@@ -72,4 +105,4 @@ a:hover {
 a:active {
     color: white;
 }
-    
+}
