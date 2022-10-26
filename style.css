@@ -71,6 +71,32 @@ a:active {
     width: 400px;
     margin: auto;
 }
+.cim2 img{
+    border-radius: 50%;
+    width: 200;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cim2 h1{
+    color: white;
+    border-bottom:red solid;
+}
+.cim2 h2{
+    text-align: center;
+}
+.gentleman {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.gentleman a{
+    text-align: center;
+    padding: 20px;
+}
+.cim2 p{
+    text-align: center;
+    font-size: 125%; ;
+}
 @media screen and (max-width  : 500px){
     body{
 background-color:black
@@ -104,5 +130,31 @@ a:hover {
 }
 a:active {
     color: white;
+}
+.cim2 img{
+    border-radius: 50%;
+    width: 200;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cim2 h1{
+    color: white;
+    border-bottom:red solid;
+}
+.gentleman {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.gentleman a{
+    text-align: center;
+    padding: 20px;
+}
+.cim2 p{
+    text-align: center;
+    font-size: 125%; ;
+}
+.cim2 h2{
+    text-align: center;
 }
 }
